@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --color-primary: #10b981; /* Primary - emerald-500 */
+    --color-primary-hover: #059669; /* Primary Hover - emerald-600 */
+    --color-primary-light: #d1fae5; /* Primary Light - emerald-100 */
+    --color-primary-50: #ecfdf5; /* emerald-50 */
+    --color-primary-100: #d1fae5; /* emerald-100 */
+    --color-primary-200: #a7f3d0; /* emerald-200 */
+    --color-primary-300: #6ee7b7; /* emerald-300 */
+    --color-primary-400: #34d399; /* emerald-400 */
+    --color-primary-500: #10b981; /* emerald-500 */
+    --color-primary-600: #059669; /* emerald-600 */
+    --color-primary-700: #047857; /* emerald-700 */
+    --color-primary-800: #065f46; /* emerald-800 */
+    --color-primary-900: #064e3b; /* emerald-900 */
+    --color-primary-950: #022c22; /* emerald-950 */
+
+    /* Neutral Colors */
+    --color-background: #f9fafb; /* Background - gray-50 */
+    --color-surface: #ffffff; /* Surface - white */
+    --color-border: #e5e7eb; /* Border - gray-200 */
+    --color-text-primary: #111827; /* Text Primary - gray-900 */
+    --color-text-secondary: #4b5563; /* Text Secondary - gray-600 */
+    --color-text-tertiary: #9ca3af; /* Text Tertiary - gray-400 */
+
+    /* Semantic Colors */
+    --color-success: #22c55e; /* Success - green-500 */
+    --color-warning: #f59e0b; /* Warning - amber-500 */
+    --color-danger: #ef4444; /* Danger - red-500 */
+    --color-info: #3b82f6; /* Info - blue-500 */
+    --color-energy: #f97316; /* Energy - orange-500 */
+    --color-energy-50: #fff7ed; /* orange-50 */
+    --color-energy-100: #ffedd5; /* orange-100 */
+    --color-energy-200: #fed7aa; /* orange-200 */
+    --color-energy-300: #fdba74; /* orange-300 */
+    --color-energy-400: #fb923c; /* orange-400 */
+    --color-energy-500: #f97316; /* orange-500 */
+    --color-energy-600: #ea580c; /* orange-600 */
+    --color-energy-700: #c2410c; /* orange-700 */
+    --color-energy-800: #9a3412; /* orange-800 */
+    --color-energy-900: #7c2d12; /* orange-900 */
+    --color-energy-950: #431407; /* orange-950 */
+  }
+
+  body {
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+  }
+}
